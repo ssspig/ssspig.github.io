@@ -6,19 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Caleb博客的搭建粗略过程总结 | xiaoyang</title>
+  <title>网络协议以及消息传送 | xiaoyang</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Start开始准备工作1234$ git下载、github账号的创建、node.js下载$ SSH密钥的生成  ssh-keygen -t rsa -C &quot;hello@gmail.com&quot;$ 建立仓库 hexo安装 1234567$ npm install -g hexo (hexo下载)$ hexo init$ hexo主题更换，部署以及与github远端的联系hexo s在本地建立博客,更新博">
+  <meta name="description" content="(一)UDP协议(运输层协议)UDP协议特点:1234UDP协议是无连接的UDP协议是不可靠的，能发送，既不能保证发送的质量，也不能保证发送的数量UDP协议是面向报文的支持一对一、一对多、多对多通信 (二)TCP协议(运输层协议)TCP协议协议特点12345TCP协议是面向连接的TCP协议提供可靠支付的服务，对传送的数据无差错、不丢失、不重复，并且按序到达TCP协议提供全双工通信TCP协议是面向字">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Caleb博客的搭建粗略过程总结">
-<meta property="og:url" content="http://yoursite.com/2018/06/03/first-blog/index.html">
+<meta property="og:title" content="网络协议以及消息传送">
+<meta property="og:url" content="http://yoursite.com/2018/06/07/knowlege1/index.html">
 <meta property="og:site_name" content="xiaoyang">
-<meta property="og:description" content="Start开始准备工作1234$ git下载、github账号的创建、node.js下载$ SSH密钥的生成  ssh-keygen -t rsa -C &quot;hello@gmail.com&quot;$ 建立仓库 hexo安装 1234567$ npm install -g hexo (hexo下载)$ hexo init$ hexo主题更换，部署以及与github远端的联系hexo s在本地建立博客,更新博">
+<meta property="og:description" content="(一)UDP协议(运输层协议)UDP协议特点:1234UDP协议是无连接的UDP协议是不可靠的，能发送，既不能保证发送的质量，也不能保证发送的数量UDP协议是面向报文的支持一对一、一对多、多对多通信 (二)TCP协议(运输层协议)TCP协议协议特点12345TCP协议是面向连接的TCP协议提供可靠支付的服务，对传送的数据无差错、不丢失、不重复，并且按序到达TCP协议提供全双工通信TCP协议是面向字">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-06-05T15:00:46.811Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/ssspig/ssspig.github.io/master/tcp.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/ssspig/ssspig.github.io/master/tcpover.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/ssspig/ssspig.github.io/master/message.png">
+<meta property="og:updated_time" content="2018-06-07T15:27:00.727Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Caleb博客的搭建粗略过程总结">
-<meta name="twitter:description" content="Start开始准备工作1234$ git下载、github账号的创建、node.js下载$ SSH密钥的生成  ssh-keygen -t rsa -C &quot;hello@gmail.com&quot;$ 建立仓库 hexo安装 1234567$ npm install -g hexo (hexo下载)$ hexo init$ hexo主题更换，部署以及与github远端的联系hexo s在本地建立博客,更新博">
+<meta name="twitter:title" content="网络协议以及消息传送">
+<meta name="twitter:description" content="(一)UDP协议(运输层协议)UDP协议特点:1234UDP协议是无连接的UDP协议是不可靠的，能发送，既不能保证发送的质量，也不能保证发送的数量UDP协议是面向报文的支持一对一、一对多、多对多通信 (二)TCP协议(运输层协议)TCP协议协议特点12345TCP协议是面向连接的TCP协议提供可靠支付的服务，对传送的数据无差错、不丢失、不重复，并且按序到达TCP协议提供全双工通信TCP协议是面向字">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/ssspig/ssspig.github.io/master/tcp.jpg">
   
     <link rel="alternative" href="/atom.xml" title="xiaoyang" type="application/atom+xml">
   
@@ -158,28 +162,43 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-first-blog" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-knowlege1" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Caleb博客的搭建粗略过程总结
+      网络协议以及消息传送
     </h1>
   
 
         
-        <a href="/2018/06/03/first-blog/" class="archive-article-date">
-  	<time datetime="2018-06-03T10:24:21.319Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-06-03</time>
+        <a href="/2018/06/07/knowlege1/" class="archive-article-date">
+  	<time datetime="2018-06-07T14:01:51.875Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-06-07</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Start"><a href="#Start" class="headerlink" title="Start"></a>Start</h2><h3 id="开始准备工作"><a href="#开始准备工作" class="headerlink" title="开始准备工作"></a>开始准备工作</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git下载、github账号的创建、node.js下载</span><br><span class="line">$ SSH密钥的生成</span><br><span class="line">  ssh-keygen -t rsa -C <span class="string">"hello@gmail.com"</span></span><br><span class="line">$ 建立仓库</span><br></pre></td></tr></table></figure>
-<h3 id="hexo安装"><a href="#hexo安装" class="headerlink" title="hexo安装"></a>hexo安装</h3> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo (hexo下载)</span><br><span class="line">$ hexo init</span><br><span class="line">$ hexo主题更换，部署以及与github远端的联系</span><br><span class="line">hexo s在本地建立博客,更新博客内容</span><br><span class="line">$ 安装hexo-deployer-git自动部署发布工具</span><br><span class="line">  npm install hexo-deployer-git  --save</span><br><span class="line">hexo g hexo d部署到远端</span><br></pre></td></tr></table></figure>
+        <h2 id="一-UDP协议-运输层协议"><a href="#一-UDP协议-运输层协议" class="headerlink" title="(一)UDP协议(运输层协议)"></a>(一)UDP协议(运输层协议)</h2><h3 id="UDP协议特点"><a href="#UDP协议特点" class="headerlink" title="UDP协议特点:"></a>UDP协议特点:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">UDP协议是无连接的</span><br><span class="line">UDP协议是不可靠的，能发送，既不能保证发送的质量，也不能保证发送的数量</span><br><span class="line">UDP协议是面向报文的</span><br><span class="line">支持一对一、一对多、多对多通信</span><br></pre></td></tr></table></figure>
+<h2 id="二-TCP协议-运输层协议"><a href="#二-TCP协议-运输层协议" class="headerlink" title="(二)TCP协议(运输层协议)"></a>(二)TCP协议(运输层协议)</h2><h3 id="TCP协议协议特点"><a href="#TCP协议协议特点" class="headerlink" title="TCP协议协议特点"></a>TCP协议协议特点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">TCP协议是面向连接的</span><br><span class="line">TCP协议提供可靠支付的服务，对传送的数据无差错、不丢失、不重复，并且按序到达</span><br><span class="line">TCP协议提供全双工通信</span><br><span class="line">TCP协议是面向字节流</span><br><span class="line">TCP协议只能是点到点，即一对一</span><br></pre></td></tr></table></figure>
+<h3 id="工作原理："><a href="#工作原理：" class="headerlink" title="工作原理："></a>工作原理：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">连接建立：三次握手</span><br></pre></td></tr></table></figure>
+<p>   <img src="https://raw.githubusercontent.com/ssspig/ssspig.github.io/master/tcp.jpg" alt="avatar"><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">连接结束:四次握手</span><br></pre></td></tr></table></figure></p>
+<p>   <img src="https://raw.githubusercontent.com/ssspig/ssspig.github.io/master/tcpover.jpg" alt="avatar"></p>
+<h2 id="三-http协议-应用层协议-超文本协议"><a href="#三-http协议-应用层协议-超文本协议" class="headerlink" title="(三)http协议(应用层协议-超文本协议)"></a>(三)http协议(应用层协议-超文本协议)</h2><h3 id="http协议特点"><a href="#http协议特点" class="headerlink" title="http协议特点:"></a>http协议特点:</h3><pre><code class="bash">支持客户端\服务器模式
+简单快捷灵活
+无连接:限制每次连接只能处理一个请求
+无状态:协议对于事务处理没有记忆能力
+</code></pre>
+<h3 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理:"></a>工作原理:</h3><pre><code>![avatar](https://raw.githubusercontent.com/ssspig/ssspig.github.io/master/http.jpg)
+</code></pre><h2 id="消息传送-push与pull模式，多指web"><a href="#消息传送-push与pull模式，多指web" class="headerlink" title="消息传送(push与pull模式，多指web)"></a>消息传送(push与pull模式，多指web)</h2><pre><code class="bash">c2与c1通信:
+</code></pre>
+<p>   <img src="https://raw.githubusercontent.com/ssspig/ssspig.github.io/master/message.png" alt="avatar"></p>
+<pre><code class="bash">http那边对应pull mode
+tcp那边对应push mode
+</code></pre>
 
       
 
@@ -262,7 +281,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/06/03/first-blog/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/06/07/knowlege1/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -276,18 +295,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2018/06/07/knowlege1/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          网络协议以及消息传送
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/06/03/English/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">伟哥精句(一)</div>
+    <a href="/2018/06/03/first-blog/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Caleb博客的搭建粗略过程总结</div>
       <i class="icon-circle-right"></i>
     </a>
   
